@@ -1,0 +1,27 @@
+{
+  "name": "run-main",
+  "repository": "https://github.com/aabccd021/run-main",
+  "version": "0.0.0-semantic-release",
+  "license": "MIT",
+  "files": [
+    "bin.sh"
+  ],
+  "bin": "bin.sh",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "peerDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.0.2"
+  }
+}
