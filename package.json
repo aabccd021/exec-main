@@ -7,11 +7,6 @@
     "bin.sh"
   ],
   "bin": "bin.sh",
-  "release": {
-    "branches": [
-      "main"
-    ]
-  },
   "peerDependencies": {
     "ts-node": "^10.9.1"
   },
